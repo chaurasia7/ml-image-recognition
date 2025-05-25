@@ -19,15 +19,15 @@ This project uses Python 3.10 to create and test an image recognition model trai
     
 
 
-2. Create Dataset and Train Your Own Model (Optional)
-    If you want to create your own dataset and train your own model (optional), run the data collection script to save images locally:
+2. Create Dataset and Train Your Own Model (Optional):
+    If you want to create your own dataset and train your own model (optional), run the data collection script to save images locally.
     python datacollection.py
     Next, go to Teachable Machine, upload your dataset, train your model, and export it in .h5 format.
     Once you have your .h5 model file, place it in the project directory and run the test script to evaluate the model:
 
 
 
-3. python test.py
+3. python test.py :
 Notes
     The model is trained externally using Google's Teachable Machine and tested locally using Python.
     You can use the provided dataset and model or create your own.
